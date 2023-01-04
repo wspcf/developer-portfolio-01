@@ -2,6 +2,9 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+body {
+  background-color: #f7f1f1;
+}
 .text_primary {
   color: #fd6e0a;
 }
@@ -58,7 +61,7 @@ header {
   font-size: 45px;
   margin-bottom: 5px;
 }
-.bnner_name {
+.banner_name {
   font-weight: 700;
   font-size: 85px;
   margin-bottom: 20px;
@@ -117,4 +120,30 @@ main {
 .what_i_do {
   text-align: center;
   margin-top: 130px;
+  margin-bottom: 130px;
+}
+.skills_container {
+  display: flex;
+  margin-top: 90px;
+}
+.skills {
+  height: 377px;
+  width: 267px;
+  text-align: left;
+  background-color: #fff;
+  margin-right: 20px;
+  padding: 30px;
+}
+.skills img {
+  margin-bottom: 30px;
+}
+.skill_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill_content {
+  line-height: 30px;
 }
