@@ -2,6 +2,70 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+.text_primary {
+  color: #fd6e0a;
+}
+.btn_primary {
+  height: 64px;
+  left: 1220px;
+  background: #fd6e0a;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  padding: 18px 35px;
+}
+/* Header & Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 200px;
+}
 .nav_title {
-  color: blueviolet;
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+nav li a {
+  text-decoration: none;
+}
+/* Header */
+header {
+  width: 1600px;
+  margin: 0 auto;
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+.header_banner {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner_sub_title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+.bnner_name {
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+.banner_content {
+  color: #757575;
+  width: 585px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
