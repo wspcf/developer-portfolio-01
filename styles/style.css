@@ -45,6 +45,7 @@ header {
   background-image: url("../images/header_bg.png"), url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, left;
+  margin-bottom: 130px;
 }
 .header_banner {
   margin: 0 200px;
@@ -68,4 +69,52 @@ header {
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 30px;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* About Me */
+.about {
+  margin: 0 auto;
+  padding: 130px 150px;
+  background: #fff8f3;
+  border-radius: 10px;
+  text-align: center;
+}
+.section_title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.sction_content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.section_info {
+  display: flex;
+  justify-content: space-around;
+}
+.about_info {
+}
+.about_info_title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+}
+.about_info_content {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #474747;
+}
+.what_i_do {
+  text-align: center;
+  margin-top: 130px;
 }
